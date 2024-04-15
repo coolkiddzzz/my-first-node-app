@@ -1,0 +1,19 @@
+{
+  "name": "my-first-node-app",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolkiddzzz/my-first-node-app.git"
+  },
+  "author": "coolkiddzzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolkiddzzz/my-first-node-app/issues"
+  },
+  "homepage": "https://github.com/coolkiddzzz/my-first-node-app#readme"
+}
