@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-node-app
+  labels:
+    environment: production
+
+spec:
+  containers:
+  - name: my-node-app
+    image: 255945442255.dkr.ecr.us-east-1.amazonaws.com/node-docker-mwaiyee:latest
+    ports:
+    - containerPort: 3000
+  imagePullSecrets:
+  - name: regcred
